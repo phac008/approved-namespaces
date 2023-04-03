@@ -4,7 +4,7 @@ metadata:
   name: myapp1
   description: myapp1
   labels:
-    size: small
+    size: medium
     environments: dev-qa-prod
 spec:
   owner: group:default/guests
