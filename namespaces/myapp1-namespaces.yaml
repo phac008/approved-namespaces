@@ -3,38 +3,38 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: myapp1-suxess-it-dev
+  name: suxess-it-dev
   labels:
     app : myapp1
     team: group:default/team-a
     build-namespace: myapp1-build
-    size: medium
-    environment: suxess-it-dev
+    size: small
+    environment: dev
 #    goldilocks.fairwinds.com/enabled: "true"
 
 ---
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: myapp1-suxess-id-qa
+  name: suxess-it-qa
   labels:
     app : myapp1
     team: group:default/team-a
     build-namespace: myapp1-build
-    size: medium
-    environment: suxess-id-qa
+    size: small
+    environment: qa
 #    goldilocks.fairwinds.com/enabled: "true"
 
 ---
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: myapp1-suxess-it-prod
+  name: suxess-it-prod
   labels:
     app : myapp1
     team: group:default/team-a
     build-namespace: myapp1-build
-    size: medium
-    environment: suxess-it-prod
+    size: small
+    environment: prod
 #    goldilocks.fairwinds.com/enabled: "true"
 
