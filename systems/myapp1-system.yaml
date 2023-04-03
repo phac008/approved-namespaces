@@ -7,4 +7,4 @@ metadata:
     size: medium
     environments: dev-qa-prod
 spec:
-  owner: group:default/team-a
+  owner: group:default/guests
