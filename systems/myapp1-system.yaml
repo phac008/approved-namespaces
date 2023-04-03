@@ -4,7 +4,7 @@ metadata:
   name: myapp1
   description: myapp1
   labels:
-    size: medium
-    environments: suxess-it-dev-suxess-id-qa-suxess-it-prod
+    size: small
+    environments: dev-qa-prod
 spec:
   owner: group:default/team-a
