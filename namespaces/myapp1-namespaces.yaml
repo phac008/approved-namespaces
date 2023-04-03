@@ -6,7 +6,7 @@
 #  name: suxess-it-dev
 #  labels:
 #    app : myapp1
-#    team: group:default/team-a
+#    team: group:default/guests
 #    build-namespace: myapp1-build
 #    size: small
 #    environment: dev
@@ -19,7 +19,7 @@
 #  name: suxess-it-qa
 #  labels:
 #    app : myapp1
-#    team: group:default/team-a
+#    team: group:default/guests
 #    build-namespace: myapp1-build
 #    size: small
 #    environment: qa
@@ -32,7 +32,7 @@
 #  name: suxess-it-prod
 #  labels:
 #    app : myapp1
-#    team: group:default/team-a
+#    team: group:default/guests
 #    build-namespace: myapp1-build
 #    size: small
 #    environment: prod
