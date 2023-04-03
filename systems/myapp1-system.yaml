@@ -5,6 +5,6 @@ metadata:
   description: myapp1
   labels:
     size: medium
-    environments: sx-bs-build-sx-bs-dev-sx-bs-qa-sx-bs-prod
+    environments: suxess-it-dev-suxess-id-qa-suxess-it-prod
 spec:
   owner: group:default/team-a
