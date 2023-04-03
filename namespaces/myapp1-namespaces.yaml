@@ -3,51 +3,51 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: myapp1-build
+  name: myapp1-sx-bs-build
   labels:
     app : myapp1
     team: group:default/team-a
     build-namespace: myapp1-build
     size: medium
-    environment: build
+    environment: sx-bs-build
 #    goldilocks.fairwinds.com/enabled: "true"
 
 ---
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: myapp1-dev
+  name: myapp1-sx-bs-dev
   labels:
     app : myapp1
     team: group:default/team-a
     build-namespace: myapp1-build
     size: medium
-    environment: dev
+    environment: sx-bs-dev
 #    goldilocks.fairwinds.com/enabled: "true"
 
 ---
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: myapp1-qa
+  name: myapp1-sx-bs-qa
   labels:
     app : myapp1
     team: group:default/team-a
     build-namespace: myapp1-build
     size: medium
-    environment: qa
+    environment: sx-bs-qa
 #    goldilocks.fairwinds.com/enabled: "true"
 
 ---
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: myapp1-prod
+  name: myapp1-sx-bs-prod
   labels:
     app : myapp1
     team: group:default/team-a
     build-namespace: myapp1-build
     size: medium
-    environment: prod
+    environment: sx-bs-prod
 #    goldilocks.fairwinds.com/enabled: "true"
 
