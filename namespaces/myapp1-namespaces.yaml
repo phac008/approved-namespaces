@@ -1,0 +1,40 @@
+
+#---
+#apiVersion: v1
+#kind: Namespace
+#metadata:
+#  name: suxess-it-dev
+#  labels:
+#    app : myapp1
+#    team: group:default/guests
+#    build-namespace: myapp1-build
+#    size: medium
+#    environment: dev
+#    goldilocks.fairwinds.com/enabled: "true"
+
+#---
+#apiVersion: v1
+#kind: Namespace
+#metadata:
+#  name: suxess-it-qa
+#  labels:
+#    app : myapp1
+#    team: group:default/guests
+#    build-namespace: myapp1-build
+#    size: medium
+#    environment: qa
+#    goldilocks.fairwinds.com/enabled: "true"
+
+#---
+#apiVersion: v1
+#kind: Namespace
+#metadata:
+#  name: suxess-it-prod
+#  labels:
+#    app : myapp1
+#    team: group:default/guests
+#    build-namespace: myapp1-build
+#    size: medium
+#    environment: prod
+#    goldilocks.fairwinds.com/enabled: "true"
+
