@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: myappsx
+  description: myappsx
+  labels:
+    environments: ${{ json parameters.environments }}
+spec:
+  owner: group:default/guests
